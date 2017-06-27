@@ -96,7 +96,7 @@ public class StartService {
 		searchList = commonsData.getSearchResults(searchChars);
 
 		if (searchList == null || searchList.isEmpty()) {
-			throw new AppException("Response from Web-service is null");
+			throw new AppException("Response from Web-service is null...");
 		}
 		return searchList;
 	}
