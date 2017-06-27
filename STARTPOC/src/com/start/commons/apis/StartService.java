@@ -88,7 +88,7 @@ public class StartService {
 	public List<SearchDO> getSearchResults(SearchDO searchChars)
 			throws AppException {
 
-		logger.info("Method call for getSearchResults.");
+		logger.info("Method call for getSearchResults...");
 		List<SearchDO> searchList = null;
 
 		CommonsData commonsData = new CommonsData();
